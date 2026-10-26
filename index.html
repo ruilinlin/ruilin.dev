@@ -305,19 +305,18 @@
      "projects" command output.
      ================================================================ -->
 <div class="wrap below" id="dossier">
-  <div class="scrollcue"><a href="#sec-projects">▼ SCROLL — FULL DOSSIER BELOW · 完整档案在下方 ▼</a></div>
+  <div class="scrollcue"><a href="#sec-projects">▼ SCROLL — FULL DOSSIER BELOW ▼</a></div>
   <nav class="dnav" aria-label="Dossier sections">
     <a href="#sec-projects">[ PROJECT FILES ]</a>
     <a href="#sec-experience">[ EXPERIENCE LOG ]</a>
     <a href="#sec-skills">[ SKILL STACK ]</a>
     <a href="#sec-contact">[ CONTACT ]</a>
-    <a href="#add-guide">[ + ADD A PROJECT ]</a>
   </nav>
 
   <!-- ============ PROJECT FILES ============ -->
   <section class="dsec" id="sec-projects" aria-label="Project files">
     <div class="dsec-head"><span class="no">DOSSIER A</span><h2>PROJECT FILES</h2><span class="tag">05 ENTRIES · IMAGES + VIDEO ON FILE</span></div>
-    <p class="dlead">The terminal above is the index — this is the archive. Every entry the <b style="color:#e8e8e8">projects</b> command lists has a full file down here: description, stack, images and video. 上面终端是目录，这里是每个项目的完整档案。</p>
+    <p class="dlead">The terminal above is the index — this is the archive. Every entry the <b style="color:#e8e8e8">projects</b> command lists has a full file down here: description, stack, images and video.</p>
 
     <!-- FILE 01 · BARK BUDDY -->
     <article class="pcard" id="pb-bark">
@@ -335,9 +334,9 @@
       </div>
       <div class="pbody">
         <div class="pmeta"><span>FILE 01 · SOCIAL APP</span><span>2024.01 — 2024.05</span><span>ROLE: DESIGN + FULL-STACK BUILD</span></div>
-        <h3>BARK BUDDY<span class="zh">宠物社交应用 · DOG SOCIAL / COMPANION APP</span></h3>
+        <h3>BARK BUDDY<span class="zh">DOG SOCIAL / COMPANION APP</span></h3>
         <p>A social platform for dog people, built around the daily ritual of the walk: share your dog's stories, join local events and meetups, and message fellow owners nearby — a small community for the humans on the other end of the leash.</p>
-        <p class="dim2">面向宠物爱好者的社交平台：分享宠物故事、参与线下活动、与同好消息交流——一个为「遛狗社交」设计的小社区。Full demo in the video on the left.</p>
+        <p class="dim2">Full demo in the video on the left.</p>
         <div class="stackrow"><span>JavaScript</span><span>React.js</span><span>Product Design</span></div>
         <div class="plinks">
           <a href="https://www.youtube.com/watch?v=WDKOhaXyIQg" target="_blank" rel="noopener">WATCH ON YOUTUBE ↗</a>
@@ -352,20 +351,20 @@
         <div class="diagram" role="img" aria-label="Pipeline diagram: learner input goes to a BERT fluency scorer, whose score feeds a dynamic prompt builder running as a Django REST API, which conditions GPT-4 to produce an adaptive reply">
           <svg viewBox="0 0 460 210">
             <g font-family="'JetBrains Mono', monospace" font-size="11.5">
-              <text x="73" y="34" fill="#5c5c5c" text-anchor="middle">LEARNER INPUT · 中文句子</text>
+              <text x="73" y="34" fill="#5c5c5c" text-anchor="middle">LEARNER INPUT · CHINESE SENTENCE</text>
               <line x1="73" y1="40" x2="73" y2="58" stroke="#5c5c5c" stroke-dasharray="3 3"/>
               <rect x="14" y="62" width="118" height="72" fill="none" stroke="#e8e8e8" stroke-width="1.4"/>
               <text x="73" y="92" fill="#ffffff" text-anchor="middle" font-weight="700">BERT</text>
               <text x="73" y="110" fill="#9a9a9a" text-anchor="middle">fluency scoring</text>
-              <text x="73" y="126" fill="#5c5c5c" text-anchor="middle">流利度评估</text>
+              <text x="73" y="126" fill="#5c5c5c" text-anchor="middle">fluency assessment</text>
               <rect x="176" y="62" width="118" height="72" fill="none" stroke="#e8e8e8" stroke-width="1.4"/>
-              <text x="235" y="92" fill="#ffffff" text-anchor="middle" font-weight="700">动态提示</text>
+              <text x="235" y="92" fill="#ffffff" text-anchor="middle" font-weight="700">DYNAMIC PROMPT</text>
               <text x="235" y="110" fill="#9a9a9a" text-anchor="middle">prompt builder</text>
               <text x="235" y="126" fill="#5c5c5c" text-anchor="middle">Django REST API</text>
               <rect x="338" y="62" width="108" height="72" fill="none" stroke="#e8e8e8" stroke-width="1.4"/>
               <text x="392" y="92" fill="#ffffff" text-anchor="middle" font-weight="700">GPT-4</text>
               <text x="392" y="110" fill="#9a9a9a" text-anchor="middle">adaptive reply</text>
-              <text x="392" y="126" fill="#5c5c5c" text-anchor="middle">适配学习者的回复</text>
+              <text x="392" y="126" fill="#5c5c5c" text-anchor="middle">tailored to the learner</text>
               <g stroke="#e8e8e8" stroke-width="1.6" fill="none">
                 <line x1="132" y1="98" x2="168" y2="98"/><path d="M176 98 l-9 -4.5 v9 z" fill="#e8e8e8" stroke="none"/>
                 <line x1="294" y1="98" x2="330" y2="98"/><path d="M338 98 l-9 -4.5 v9 z" fill="#e8e8e8" stroke="none"/>
@@ -379,7 +378,7 @@
       </div>
       <div class="pbody">
         <div class="pmeta"><span>FILE 02 · AI / NLP</span><span>2024.04 — 2024.08</span><span>RESEARCH PROJECT</span></div>
-        <h3>ADAPTIVE RESPONSES CHATBOT<span class="zh">自适应回复聊天机器人服务 · CHATBOT SERVER</span></h3>
+        <h3>ADAPTIVE RESPONSES CHATBOT<span class="zh">CHATBOT SERVER</span></h3>
         <p>A language-learning chatbot that grades before it answers. A BERT model first scores the learner's Chinese fluency; that score drives a dynamic prompt builder, so GPT-4's reply difficulty and style adapt to the learner's actual level instead of answering everyone the same way.</p>
         <ul class="steps">
           <li><b>01</b> <span class="arr">→</span> Learner writes a Chinese sentence</li>
@@ -402,9 +401,9 @@
       </div>
       <div class="pbody">
         <div class="pmeta"><span>FILE 03 · RESEARCH</span><span>2024.01</span><span>SCI / SSCI PUBLICATION</span></div>
-        <h3>SCI RESEARCH PAPER<span class="zh">期刊论文 · URBAN FORESTRY &amp; URBAN GREENING</span></h3>
+        <h3>SCI RESEARCH PAPER<span class="zh">URBAN FORESTRY &amp; URBAN GREENING</span></h3>
         <p>Peer-reviewed research on the vitality of urban nature in San Francisco, published in <i>Urban Forestry &amp; Urban Greening</i> — the point where the architecture years met data science: geospatial analysis of how a city's greenery actually lives, spreads and serves the people around it.</p>
-        <p class="dim2">关于旧金山城市自然活力的研究——建筑与数据科学在学术上的交汇点。</p>
+        <p class="dim2">A study of urban nature's vitality in San Francisco — the academic meeting point of architecture and data science.</p>
         <div class="stackrow"><span>Geospatial Analysis</span><span>ArcGIS</span><span>Urban Forestry</span></div>
         <div class="plinks">
           <a href="https://doi.org/10.1016/j.ufug.2024.128289" target="_blank" rel="noopener">DOI: 10.1016/j.ufug.2024.128289 ↗</a>
@@ -438,7 +437,7 @@
       </div>
       <div class="pbody">
         <div class="pmeta"><span>FILE 04 · THIS SITE</span><span>STATIC · SINGLE PAGE</span></div>
-        <h3>TERMFOLIO<span class="zh">终端风个人站 · THE ROOM YOU ARE STANDING IN</span></h3>
+        <h3>TERMFOLIO<span class="zh">THE ROOM YOU ARE STANDING IN</span></h3>
         <p>A terminal-aesthetic portfolio with a companion robot unit: a working command line (help / projects / ttt / quiz…), a canvas-drawn robot whose eyes follow your cursor, CRT scanlines — and, as of this build, a full scroll-down dossier underneath. The robot is R-01. It is pleased to meet you.</p>
         <div class="stackrow"><span>HTML / CSS / JS</span><span>Canvas 2D</span><span>Web Audio</span></div>
         <div class="plinks"><a href="#dossier" class="toTopLink">↑ BACK TO THE TERMINAL</a></div>
@@ -468,9 +467,9 @@
       </div>
       <div class="pbody">
         <div class="pmeta"><span>FILE 05 · ARCHITECTURE</span><span>2019 — 2022</span><span>TIANJIN · MILAN</span></div>
-        <h3>ARCHITECTURE PORTFOLIO<span class="zh">建筑作品 · THE BLUEPRINT YEARS</span></h3>
+        <h3>ARCHITECTURE PORTFOLIO<span class="zh">THE BLUEPRINT YEARS</span></h3>
         <p>Landscape and urban-design work from the years before the keyboard: ChuangYi Landscape Design in Tianjin and the Politecnico di Milano workshop years. Drawings, models and research are archived on Adobe Portfolio — the three collections are linked below.</p>
-        <p class="dim2">建筑时期的作品（景观设计、图纸与模型）存档在 Adobe Portfolio，点下方链接查看。</p>
+        <p class="dim2">Work from the architecture years — landscape design, drawings and models — is archived on Adobe Portfolio; see the links below.</p>
         <div class="stackrow"><span>Rhino</span><span>CAD</span><span>3D Studio Max</span><span>Adobe Suite</span></div>
         <div class="plinks">
           <a href="https://ruilinsun.myportfolio.com/cs-projects" target="_blank" rel="noopener">CS PROJECTS ↗</a>
@@ -549,7 +548,7 @@
         <div class="crow"><span class="k">LINKEDIN</span><a href="https://www.linkedin.com/in/ruilin-sun-857320221/" target="_blank" rel="noopener">linkedin.com/in/ruilin-sun-857320221 ↗</a></div>
         <div class="crow"><span class="k">LOCATION</span><span>Vancouver / Burnaby, BC, Canada</span></div>
         <div class="crow"><span class="k">STATUS</span><span>Software Engineer @ TSB Communications</span></div>
-        <p style="font-size:13px;line-height:1.7;color:var(--dim);margin:14px 0 0">Want to talk about a project, a role, or the strange overlap between gardens and software? Email is fastest — R-01 forwards everything. Eventually. 想聊项目或合作，邮件最快。</p>
+        <p style="font-size:13px;line-height:1.7;color:var(--dim);margin:14px 0 0">Want to talk about a project, a role, or the strange overlap between gardens and software? Email is fastest — R-01 forwards everything. Eventually.</p>
       </div>
       <div class="cbox">
         <h3>// EDUCATION &amp; CERTIFICATES</h3>
@@ -563,23 +562,9 @@
     </div>
   </section>
 
-  <!-- ============ HOW TO ADD ============ -->
-  <section class="dsec" id="add-guide" aria-label="How to add projects and media">
-    <div class="dsec-head"><span class="no">README</span><h2>ADDING PROJECTS &amp; MEDIA</h2><span class="tag">添加项目 / 图片 / 视频的方法</span></div>
-    <div class="manual">
-      <ol>
-        <li><b>加新项目 ADD A PROJECT</b> — 把标题、介绍、技术栈和链接发我（在这个对话里说一句「加一个项目」就行），我会新增一张和上面同款的档案卡，并把终端 <code>projects</code> 列表里的 VIEW DETAIL 链接一起接好。想自己改源码也可以：复制任意一个 <code>&lt;article class="pcard"&gt;</code> 整块、换上新 id 即可。</li>
-        <li><b>加图片 ADD IMAGES</b> — 把图片发我，或放进站点的 <code>assets/</code> 文件夹，再把卡片里 <code>&lt;img src="assets/…"&gt;</code> 指向新文件；画廊里的图点击可全屏放大，封面插画随时可换成真实截图。</li>
-        <li><b>加视频 ADD A VIDEO</b> — YouTube / Vimeo 链接走 Bark Buddy 同款「封面点播」模式（点封面才加载播放器）；本地视频文件放进 <code>assets/</code> 后用 <code>&lt;video controls src="assets/demo.mp4"&gt;</code> 原生播放。</li>
-        <li><b>双向打通 BOTH WAYS</b> — 顶栏 <code>[ DOSSIER ↓ ]</code>、终端 <code>projects</code> 输出的 VIEW DETAIL、和本区导航都指向同一批卡片：在一处新增，两处生效。</li>
-      </ol>
-    </div>
-    <div class="topbtn"><button type="button" id="toTopBtn">↑ RETURN TO TERMINAL · 回到终端</button></div>
-  </section>
-
   <footer>
     <span>RUILIN SUN — DOSSIER END · EOF</span>
-    <span>FROM BLUEPRINT TO CODE · 从蓝图到代码</span>
+    <span>FROM BLUEPRINT TO CODE</span>
   </footer>
 </div>
 
@@ -905,7 +890,7 @@ about: function(){ return { out:
 "  ───────────────────────────────────────────\n\n"+
 "  \"From blueprint to code\" — I spent years drawing spaces\n"+
 "   people live in. Now I design systems people think with.\n"+
-"   建筑的底子，代码的手艺。",
+"   An architect's foundation, a developer's craft.",
 speech:'Nice to meet you. Ruilin went from drawing blueprints to shipping AI products.', action:'nod', state:'success'}; },
 
 skills: function(){ return { out:
